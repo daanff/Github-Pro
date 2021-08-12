@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-//github tested
+
 struct ContentView: View {
 
     var body: some View {
@@ -40,7 +40,7 @@ struct ContentView: View {
                     .foregroundColor(Color.gray)
                     .padding(3)
                 Spacer()
-                Link("Details", destination: URL(string: "https://github.com")!)
+                Link("Details", destination: URL(string: "https://github.com/daanff")!)
                     .foregroundColor(Color.gray)
                     .padding(3)
                 Spacer()
@@ -84,6 +84,7 @@ struct FeaturesView: View {
         }
     }
 }
+
 struct HeaderLabels: View {
     var body: some View{
         Text("GitHub Pro")
