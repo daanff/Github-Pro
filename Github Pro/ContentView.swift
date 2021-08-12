@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//github tested
 struct ContentView: View {
 
     var body: some View {
